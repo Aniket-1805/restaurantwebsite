@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    background: ("../images/resturentMain.png");
+    
+    
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  html {
+    background: #faf7f2;
+
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    
+  }
+  
+  
+  
+
+.navbar2{
+   background-color:white;
+    
+    width: 100vw;
+    
+   
+    
+}
+
+
+
+
+.front{
+    
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    
+} 
+.ul{
+    background-color: white;
+    width: 100%;
+   
+    display: flex;
+    text-align: center;    
+}
+.FrontLi{
+    background-color: white;
+   
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    /* box-shadow: inset 0px 0px 0px -15px rebeccapurple; */
+    
+    
+   
+   
+ }
+
+.ul li a{
+    text-decoration: none;
+    margin: 10px 10px;
+    margin-bottom:0px ;
+    padding:10px 7px;
+    padding-bottom: 0px;
+    font-size: 18px;
+    font-weight: 1000;
+    
+    color: black;
+    transition: box-shadow 0.3s;
+    ;
+   
+    
+}
+
+.ul li a:hover,
+.ul li a:focus {
+    color: rebeccapurple;
+    box-shadow: inset 0px -2px 0px -1px rebeccapurple;
+  
+}
+
+
+.ul li a img{
+    mix-blend-mode: multiply;
+    height: 3em;
+    width: 3em;
+    background-color: #ADCFFF;
+    box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .navbar2{
+    background-color:white;
+  
+     width: 100vw;
+     height: 250px;
+     
+ }
+  .ul{
+    background-color:black;
+    width: 100vw;
+   
+
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;   
+  
+}
+
+}
+
+
+/* ------------Home---------- */
+
+.HomeCotainer{
+ 
+  background-image: url("C:\Users\prati\Desktop\Web Development\React\complete_react_in\my-app\public\images\resturentHome.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  
+  
+
+  
+ 
+} 
+ .HomePage{
+  position:absolute;
+  width: 500px;
+  height: 420px;
+ 
+  top: 160px;
+  margin-left: 50px;
+  background-image: url("C:\Users\prati\Desktop\Web Development\React\complete_react_in\my-app\public\images\resturentMain.avif");
+  background-repeat: no-repeat;
+  background-size: contain;
+} 
+ .HomeContent{
+
+
+    color:white;
+    background-attachment: fixed;
+    top: 160px;
+    width:50%;
+    height: 80%;
+    
+    padding-top: 20px; 
+
+   
+    
+}
+.heading{
+  padding-top: 20px;
+    margin: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    padding-left: 40px;
+  
+}
+.headingContent{
+  
+    margin: 10px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    width: 50;
+    box-sizing: border-box;
+  
+}
+@media (max-width: 768px) {
+  
+  .heading{
+    font-size: 25px;
+  }
+  .headingContent{
+    font-size: 20px;
+    width: 90%;
+    height: 70%;
+    position: relative;
+  }
+}
+
+ .btn{
+  margin: 30px;
+  padding: 10px;
+  margin-top: 5px;
+   
+} 
+.TableButton{
+
+ 
+}
+.TableButton{
+  
+  width: 13em;
+  font-size: 15px;
+  appearance: none;
+  background-color: black;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.TableButton:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button{
+    display: flex;
+  }
+ 
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+} 
+
+
+ /* //------Slider-------  */
+ #app {
+  height: 100%;
+}
+/* html,
+body {
+  position: absolute;
+  height: 100%;
+}  */
+
+/* body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  
+  color: #000;
+  margin: 0;
+  padding: 0;
+}  */
+
+.swiper {
+  width: 100vw;
+  height: 650px;
+  margin-top: 50px;
+  
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.swiper-slide img {
+  
+  width: 1100px;
+  height: 650px;
+  object-fit: cover;
+} 
+
